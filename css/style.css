@@ -150,3 +150,26 @@ p{
     margin: 2em 0;
 }
 /* ending blog section */
+
+/* Starting footer section */
+footer{
+    padding: 5%;
+    background: #000;
+    color: #fff;
+}
+.footer-text h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.footer-menu p{
+    margin-right: 20px;
+}
+/* Ending footer section */
