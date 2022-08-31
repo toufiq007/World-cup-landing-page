@@ -37,6 +37,12 @@ p {
     color: #fff;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 /* Starting banner section design */
@@ -60,6 +66,11 @@ p {
 }
 .banner-img img {
     width: 100%;
+    transition: all 0.9s ease;
+}
+.banner-img img:hover{
+    /* transform: ; */
+    transform: translateX(20%) scale(0.9);
 }
 .banner-text p {
     margin: 40px 0;
@@ -111,9 +122,6 @@ p {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
 }
-.blog {
-    /* border: 1px solid black; */
-}
 .blog-text {
     padding: 5% 4%;
 }
@@ -128,7 +136,6 @@ p {
 }
 .blog-text span {
     margin-right: 20px;
-    /* margin-top: 20px; */
     display: inline-block;
     margin-top: 20px;
 }
@@ -201,7 +208,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid black; */
         text-align: center;
         border-radius: 0;
         font-size: 1rem;
@@ -234,15 +240,13 @@ footer {
     }
     .blog-category {
         flex-direction: column;
-        width: 90%;
-        margin: auto;
+        justify-content: center;
+        align-items: center;
     }
     .blog-section{
         margin-bottom: 300px;
-        /* overflow: hidden; */
     }
     .blogs {
-        /* width: 100%; */
         grid-template-columns: repeat(1, 1fr);
     }
     .btn {

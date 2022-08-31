@@ -69,13 +69,11 @@ p {
 
 /* starting blog section */
 
-
 /* -------------------------------------------------------------------------------- */
 
 .match-section {
     display: flex;
     margin-bottom: 100px;
-    /* min-height: 600px; */
     padding: 10% 0;
 }
 
@@ -106,7 +104,6 @@ p {
     text-decoration: none;
     color: #000;
     font-family: "Poppins", sans-serif;
-    /* font-size: 1.3rem; */
 }
 .all-matches {
     width: 70%;
@@ -120,27 +117,24 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: %; */
 }
-.country-flag{
-    /* margin: 0 30px; */
+.country-flag {
     margin: 20px 0 0 0;
 }
-.country-flag span{
+.country-flag span {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
-
 }
-.match-time{
+.match-time {
     margin: 40px 0;
 }
-.match-time p{
+.match-time p {
     font-size: 16px;
     color: gray;
     letter-spacing: 1px;
 }
-.active{
+.active {
     background: #dd0000;
     color: #fff;
 }
@@ -168,7 +162,6 @@ footer {
 .footer-menu p {
     margin-right: 20px;
 }
-
 
 /* Ending footer section */
 
@@ -199,14 +192,13 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid black; */
         text-align: center;
         border-radius: 0;
         font-size: 1rem;
         padding: 5px 0;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
     }
-    .all-matches{
+    .all-matches {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -216,32 +208,30 @@ footer {
     .banner {
         flex-direction: column;
     }
-    .banner-text{
+    .banner-text {
         width: 100%;
     }
-    .banner-img{
-        width: 100% ;
+    .banner-img {
+        width: 100%;
     }
-    .banner-text p{
-
+    .banner-text p {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
     .blog-category {
         flex-direction: column;
-        width: 90%;
-        margin: auto;
+        justify-content: center;
+        align-items: center;
     }
     .all-matches {
-        /* width: 100%; */
         grid-template-columns: repeat(1, 1fr);
     }
     .btn {
         font-size: 15px;
         padding: 10px;
     }
-    .footer-menu{
+    .footer-menu {
         flex-direction: column;
     }
 }
