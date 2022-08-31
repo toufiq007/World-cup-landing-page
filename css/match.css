@@ -1,3 +1,6 @@
+/* -------------
+        All Universal style
+                ---------------- */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +42,9 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
-/* Starting banner section design */
+/* -------------
+        Starting Banner Section Design
+                ---------------- */
 
 .banner {
     background: #000;
@@ -65,11 +70,13 @@ p {
     margin: 40px 0;
     line-height: 1.4;
 }
-/* Ending banner section design */
+/* -------------
+        Ending Banner Section Design
+                ---------------- */
 
-/* starting blog section */
-
-/* -------------------------------------------------------------------------------- */
+/* -------------
+        Starting Match Section Design
+                ---------------- */
 
 .match-section {
     display: flex;
@@ -96,7 +103,7 @@ p {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #000;
     font-family: "Poppins", sans-serif;
 }
@@ -139,9 +146,13 @@ p {
     color: #fff;
 }
 
-/* ending blog section */
+/* -------------
+        Ending Match Section Design
+                ---------------- */
 
-/* Starting footer section */
+/* -------------
+        Starting Footer Section Design
+                ---------------- */
 footer {
     padding: 5%;
     background: #000;
@@ -163,9 +174,13 @@ footer {
     margin-right: 20px;
 }
 
-/* Ending footer section */
+/* -------------
+        Ending Footer Section Design
+                ---------------- */
 
-/* Responsiveness using media query */
+/* -------------
+        Starting Responsive Section For Tablet
+                ---------------- */
 
 @media (max-width: 768px) {
     .banner-text {
@@ -204,6 +219,10 @@ footer {
     }
 }
 
+/* -------------
+        Ending Responsive Design For Mobile
+                ---------------- */
+
 @media (max-width: 576px) {
     .banner {
         flex-direction: column;
@@ -235,3 +254,7 @@ footer {
         flex-direction: column;
     }
 }
+
+/* -------------
+        Thank you
+                ---------------- */
