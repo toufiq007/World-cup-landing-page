@@ -186,6 +186,18 @@ footer {
 .footer-menu p {
     margin-right: 20px;
 }
+footer .social-icons{
+    text-align: center;
+    padding: 2%
+}
+footer .social-icons span{
+    margin-right: 20px;
+    font-size: 2.5rem;
+}
+footer .social-icons span a{
+    text-decoration: none;
+    color: #fff;
+}
 /* -------------
         Ending Footer Section Design
                 ---------------- */
